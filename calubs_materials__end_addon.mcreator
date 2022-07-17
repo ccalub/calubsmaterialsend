@@ -1,9 +1,21 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "UnstableMatter",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unstable_matter",
+      "path": "~/Unstable Matter"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.calubs_materials__end_addon.unstable_matter": "Unstable Matter"
+    }
   },
   "foldersRoot": {
     "name": "~",
