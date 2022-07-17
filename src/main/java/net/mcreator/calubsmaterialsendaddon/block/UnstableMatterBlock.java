@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class UnstableMatterBlock extends Block {
 	public UnstableMatterBlock() {
-		super(BlockBehaviour.Properties.of(Material.DECORATION).sound(SoundType.STONE).strength(2f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.DECORATION).sound(SoundType.STONE).strength(5f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
