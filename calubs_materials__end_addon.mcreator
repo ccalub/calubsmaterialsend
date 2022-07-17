@@ -1,0 +1,48 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Ender",
+        "children": []
+      },
+      {
+        "name": "Unstable Matter",
+        "children": []
+      },
+      {
+        "name": "Enderium",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "calubs_materials__end_addon",
+    "modName": "Calub\u0027s Materials - End Addon",
+    "version": "0.0.1",
+    "description": "An addon for Calubs Materials that adds materials in The End",
+    "author": "Calub. Razzkelfatzz",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "calubsend",
+    "requiredMods": [
+      "calubs_materials"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created by Calub and Razzkelfatzz",
+    "modElementsPackage": "net.mcreator.calubsmaterialsendaddon",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
