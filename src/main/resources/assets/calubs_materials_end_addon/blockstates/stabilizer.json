@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "calubs_materials_end_addon:block/stabilizer"
+    }
+  }
+}

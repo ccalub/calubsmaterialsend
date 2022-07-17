@@ -16,12 +16,68 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "calubs_materials_end_addon"
+    },
+    {
+      "name": "Stabilizer",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stabilizer",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "StabilizerGUI",
+      "type": "gui",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stabilizer_gui",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ChorusPowder",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_powder",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "StabilizedMatter",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stabilized_matter",
+      "path": "~/Unstable Matter"
+    },
+    {
+      "name": "Stabilize",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stabilize",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.calubs_materials_end_addon.stabilizer": "Stabilizer",
+      "item.calubs_materials_end_addon.stabilized_matter": "Stabilized Matter",
+      "item.calubs_materials_end_addon.chorus_powder": "Chorus Powder",
       "block.calubs_materials__end_addon.unstable_matter": "Unstable Matter",
       "block.calubs_materials_end_addon.unstable_matter": "Unstable Matter",
       "itemGroup.tabcalubs_materials_end_addon": "Calubs Materials End Addon"

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "calubs_materials_end_addon:blocks/stabilizertop",
+    "up": "calubs_materials_end_addon:blocks/stabilizertop",
+    "north": "calubs_materials_end_addon:blocks/stabilizerside",
+    "east": "calubs_materials_end_addon:blocks/stabilizerside",
+    "south": "calubs_materials_end_addon:blocks/stabilizerside",
+    "west": "calubs_materials_end_addon:blocks/stabilizerside",
+    "particle": "calubs_materials_end_addon:blocks/stabilizertop"
+  }
+}
