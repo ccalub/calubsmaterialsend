@@ -1,5 +1,5 @@
 {
-  "parent": "calubs_materials__end_addon:block/unstable_matter",
+  "parent": "calubs_materials_end_addon:block/unstable_matter",
   "display": {
     "thirdperson": {
       "rotation": [

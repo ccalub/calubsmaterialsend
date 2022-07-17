@@ -14,7 +14,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.calubs_materials__end_addon.unstable_matter": "Unstable Matter"
+      "block.calubs_materials__end_addon.unstable_matter": "Unstable Matter",
+      "block.calubs_materials_end_addon.unstable_matter": "Unstable Matter"
     }
   },
   "foldersRoot": {
@@ -39,7 +40,7 @@
     ]
   },
   "workspaceSettings": {
-    "modid": "calubs_materials__end_addon",
+    "modid": "calubs_materials_end_addon",
     "modName": "Calub\u0027s Materials - End Addon",
     "version": "0.0.1",
     "description": "An addon for Calubs Materials that adds materials in The End",

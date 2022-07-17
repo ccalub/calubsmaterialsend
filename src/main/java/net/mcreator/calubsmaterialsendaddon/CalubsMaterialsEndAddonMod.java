@@ -33,10 +33,10 @@ import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
 
-@Mod("calubs_materials__end_addon")
+@Mod("calubs_materials_end_addon")
 public class CalubsMaterialsEndAddonMod {
 	public static final Logger LOGGER = LogManager.getLogger(CalubsMaterialsEndAddonMod.class);
-	public static final String MODID = "calubs_materials__end_addon";
+	public static final String MODID = "calubs_materials_end_addon";
 	private static final String PROTOCOL_VERSION = "1";
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION,
 			PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);

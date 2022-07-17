@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "calubs_materials__end_addon:blocks/unstable_matter",
-    "particle": "calubs_materials__end_addon:blocks/unstable_matter"
-  }
-}
