@@ -8,6 +8,14 @@
       "locked_code": false,
       "registry_name": "unstable_matter",
       "path": "~/Unstable Matter"
+    },
+    {
+      "name": "CalubsMaterialsEndAddon",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calubs_materials_end_addon"
     }
   ],
   "variable_elements": [],
@@ -15,7 +23,8 @@
   "language_map": {
     "en_us": {
       "block.calubs_materials__end_addon.unstable_matter": "Unstable Matter",
-      "block.calubs_materials_end_addon.unstable_matter": "Unstable Matter"
+      "block.calubs_materials_end_addon.unstable_matter": "Unstable Matter",
+      "itemGroup.tabcalubs_materials_end_addon": "Calubs Materials End Addon"
     }
   },
   "foldersRoot": {
@@ -50,9 +59,7 @@
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "calubsend",
-    "requiredMods": [
-      "calubs_materials"
-    ],
+    "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],

@@ -17,7 +17,8 @@ import net.mcreator.calubsmaterialsendaddon.CalubsMaterialsEndAddonMod;
 
 public class CalubsMaterialsEndAddonModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, CalubsMaterialsEndAddonMod.MODID);
-	public static final RegistryObject<Item> UNSTABLE_MATTER = block(CalubsMaterialsEndAddonModBlocks.UNSTABLE_MATTER, null);
+	public static final RegistryObject<Item> UNSTABLE_MATTER = block(CalubsMaterialsEndAddonModBlocks.UNSTABLE_MATTER,
+			CalubsMaterialsEndAddonModTabs.TAB_CALUBS_MATERIALS_END_ADDON);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -22,11 +22,5 @@ An addon for Calubs Materials that adds materials in The End
     side="BOTH"
 
 
-[[dependencies.calubs_materials_end_addon]]
-    modId="calubs_materials"
-    mandatory=true
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
 

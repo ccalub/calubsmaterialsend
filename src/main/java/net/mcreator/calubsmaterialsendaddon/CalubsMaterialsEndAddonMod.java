@@ -26,6 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.calubsmaterialsendaddon.init.CalubsMaterialsEndAddonModTabs;
 import net.mcreator.calubsmaterialsendaddon.init.CalubsMaterialsEndAddonModItems;
 import net.mcreator.calubsmaterialsendaddon.init.CalubsMaterialsEndAddonModBlocks;
 
@@ -43,7 +44,7 @@ public class CalubsMaterialsEndAddonMod {
 	private static int messageID = 0;
 
 	public CalubsMaterialsEndAddonMod() {
-
+		CalubsMaterialsEndAddonModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		CalubsMaterialsEndAddonModBlocks.REGISTRY.register(bus);
 		CalubsMaterialsEndAddonModItems.REGISTRY.register(bus);

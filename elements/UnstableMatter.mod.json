@@ -34,12 +34,12 @@
     ],
     "name": "Unstable Matter",
     "specialInfo": [],
-    "hardness": 5.0,
+    "hardness": 6.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:CalubsMaterialsEndAddon"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 4,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

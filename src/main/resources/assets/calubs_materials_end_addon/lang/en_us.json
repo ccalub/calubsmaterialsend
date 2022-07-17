@@ -1,4 +1,5 @@
 {
   "block.calubs_materials__end_addon.unstable_matter": "Unstable Matter",
-  "block.calubs_materials_end_addon.unstable_matter": "Unstable Matter"
+  "block.calubs_materials_end_addon.unstable_matter": "Unstable Matter",
+  "itemGroup.tabcalubs_materials_end_addon": "Calubs Materials End Addon"
 }

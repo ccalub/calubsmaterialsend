@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Calubs Materials End Addon",
+    "icon": {
+      "value": "CUSTOM:UnstableMatter"
+    },
+    "showSearch": false
+  }
+}

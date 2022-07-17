@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class UnstableMatterBlock extends Block {
 	public UnstableMatterBlock() {
-		super(BlockBehaviour.Properties.of(Material.DECORATION).sound(SoundType.STONE).strength(5f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.DECORATION).sound(SoundType.STONE).strength(6f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -29,7 +29,7 @@ public class UnstableMatterBlock extends Block {
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 4;
+			return tieredItem.getTier().getLevel() >= 3;
 		return false;
 	}
 
